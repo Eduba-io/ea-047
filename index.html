@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A read on agent governance inside BNY. Prepared brief.</title>
+  <meta name="description" content="Matt Creamer, Eduba. I read the Q1 slides and the Gemini announcement. You have 20,000 builders inside Eliza and 130 digital employees heading toward autonomous trade remediation." />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div data-eduba="banner" style="background:#0a0a0a;color:#f5f5f5;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;letter-spacing:0.01em;border-bottom:1px solid #1f1f1f;position:relative;z-index:1000;">
+  <a href="https://eduba.io" target="_blank" rel="noopener" style="color:#f5f5f5;text-decoration:none;font-weight:800;font-size:17px;letter-spacing:-0.02em;line-height:1;">eduba</a>
+  <span style="opacity:0.88;">Prepared by Eduba for BNY &mdash; Emerge Americas 2026</span>
+</div>
+
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__logo" href="https://www.bny.com" target="_blank" rel="noopener" aria-label="BNY">
+        <img src="logo.png" alt="BNY" />
+      </a>
+      <div class="site-header__meta">Prepared brief for BNY &middot; eMerge Americas 2026</div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" aria-labelledby="page-title">
+      <div class="container">
+        <p class="hero__kicker"><span class="arrow" aria-hidden="true"></span> Prepared for a thirty-minute conversation</p>
+        <h1 id="page-title">A read on how agent context is governed inside BNY, and where the next regulator question will <span class="emph">land</span>.</h1>
+        <p class="hero__sub">Eliza runs at real scale. Twenty thousand Empowered Builders, one hundred and thirty Digital Employees, a roadmap that is moving from copilot to executor inside trade settlement. At that level, the next hard question is not model quality. It is whether agent context is organized the same way across Securities Services, Pershing, Wealth, and Treasury Services.</p>
+
+        <dl class="hero__meta">
+          <div>
+            <dt>Prepared by</dt>
+            <dd>Matt Creamer, CRO &middot; Eduba</dd>
+          </div>
+          <div>
+            <dt>For</dt>
+            <dd>BNY platform, transformation, and model risk leaders</dd>
+          </div>
+          <div>
+            <dt>Time requested</dt>
+            <dd>Thirty minutes</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="proof" aria-label="Context from public disclosures">
+      <div class="container">
+        <dl class="proof__grid">
+          <div class="proof__item">
+            <dt>Q1 2026 revenue</dt>
+            <dd>$5.4B, up 13%</dd>
+          </div>
+          <div class="proof__item">
+            <dt>Eliza builders</dt>
+            <dd>20,000+</dd>
+          </div>
+          <div class="proof__item">
+            <dt>Digital Employees</dt>
+            <dd>130+</dd>
+          </div>
+          <div class="proof__item">
+            <dt>Live AI use cases</dt>
+            <dd>125+</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">The read</p>
+        </div>
+        <div class="prose">
+          <p class="lede">BNY now operates the most visible enterprise AI platform in U.S. banking. Eliza supports over 125 live use cases, over 20,000 Empowered Builders, and a growing fleet of digital employees. The Q1 2026 slides credit AI transformation as a margin driver. The December 2025 Gemini Enterprise integration extends Eliza into agentic deep research. The next step in the roadmap, Predictive Trade Analytics that can initiate remediation autonomously, moves the platform from copilot to executor.</p>
+          <p>At that level of scale, the operating question shifts. Model quality is a solved problem inside a governed marketplace. The harder question is whether agent context is organized the same way across Securities Services, Pershing, Wealth, and Treasury Services, so that two builders writing near-identical agents produce near-identical behavior, and so that a regulator reviewing one business unit can read across to every other.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint">
+      <div class="container">
+        <div class="split">
+          <div>
+            <p class="eyebrow">The frame we apply</p>
+            <h2>Sixty, thirty, ten.</h2>
+          </div>
+          <div class="prose">
+            <p>Eduba works at the orchestration layer above the model. Applied to Eliza, the useful question is not which models to pick. The useful question is which parts of an agent's context belong in structured data, which belong in approved rule sets, and which genuinely need an LLM to interpret. That separation is what makes the governance story legible to a regulator.</p>
+          </div>
+        </div>
+
+        <div class="frame" role="list">
+          <div class="frame__cell" role="listitem">
+            <p class="frame__pct">60%</p>
+            <p class="frame__label">Traditional code &amp; data</p>
+            <p class="frame__copy">Work that belongs in structured systems, deterministic logic, and documented data contracts. Reliable, auditable, cheap to operate at custody scale.</p>
+          </div>
+          <div class="frame__cell" role="listitem">
+            <p class="frame__pct">30%</p>
+            <p class="frame__label">Rule-based logic</p>
+            <p class="frame__copy">Codified policies and approved rule sets. Where a regulator expects a written control, this is the layer that answers.</p>
+          </div>
+          <div class="frame__cell frame__cell--accent" role="listitem">
+            <p class="frame__pct">10%</p>
+            <p class="frame__label">Genuine AI work</p>
+            <p class="frame__copy">The narrow slice where an LLM is the right tool. This is where interpretation and judgment earn the governance overhead.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="split">
+          <div>
+            <p class="eyebrow">A relevant precedent</p>
+            <h2>KPMG UK, one of the Big Four.</h2>
+          </div>
+          <div class="prose">
+            <p>A regulated-industry engagement with a senior, compliance-aware audience. The deliverable was a shared language for how AI work gets scoped, governed, and reviewed across a professional-services firm that lives under the same kind of oversight BNY does.</p>
+          </div>
+        </div>
+
+        <div class="precedent" style="margin-top:40px;">
+          <div>
+            <p class="precedent__tag">Precedent</p>
+            <p class="precedent__name">KPMG UK <br/>(Big Four)</p>
+            <p class="precedent__note">Regulated-industry methodology engagement.</p>
+          </div>
+          <div class="precedent__body">
+            <p>Forty-plus executives trained inside one of the Big Four professional-services firms. Senior audience, compliance-aware room, shared language for scoping and reviewing AI work. The buying posture at KPMG UK is the posture at BNY: entrenched consulting incumbents, high regulatory exposure, need for an outside methodology voice that sits above existing Big Four delivery.</p>
+            <p>If the conversation turns to workforce enablement on the Empowered Builders side, the Correlation One engagement (Pacific Life, Colgate-Palmolive) is the closer reference: 1,500+ people trained since May 2025, 6,000 to 9,000 hours saved per year, 95% still using the tools thirty days after the workshop.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint">
+      <div class="container">
+        <div class="split">
+          <div>
+            <p class="eyebrow">The published work</p>
+            <h2>Something Model Risk can cite.</h2>
+          </div>
+          <div>
+            <div class="paper">
+              <h3>The Ethics Engine</h3>
+              <p class="paper__meta">A psychometric assessment tool for evaluating ideological and moral patterns in LLMs.</p>
+              <p>For an institution approaching autonomous remediation inside trade flows, the Ethics Engine gives Model Risk Management an outside methodology to cite when the question comes up. The paper and the repository are below.</p>
+              <div class="paper__links">
+                <a href="https://arxiv.org/abs/2510.11742" target="_blank" rel="noopener">arxiv.org/abs/2510.11742</a>
+                <a href="https://github.com/RinDig/AuditEngine" target="_blank" rel="noopener">github.com/RinDig/AuditEngine</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="split">
+          <div>
+            <p class="eyebrow">An honest read</p>
+            <h2>What the first step looks like, and what it does not.</h2>
+          </div>
+          <div class="prose">
+            <p>Eduba is a six-person veteran-owned firm. We are not a panel vendor at a G-SIB, and we do not intend to be. We are a methodology partner. The first paid step is narrow and scoped to one business unit.</p>
+          </div>
+        </div>
+
+        <div class="risk" role="list">
+          <div class="risk__item" role="listitem">
+            <h4>Narrow first scope</h4>
+            <p>A two-week audit-first engagement tied to one workflow, one business unit, one owner. Methodology transfer as the deliverable.</p>
+          </div>
+          <div class="risk__item" role="listitem">
+            <h4>Under TPRM</h4>
+            <p>Vendor onboarding at a G-SIB takes time. We scope the first step so it can move under a lighter contract vehicle while TPRM runs its course.</p>
+          </div>
+          <div class="risk__item" role="listitem">
+            <h4>Above the model</h4>
+            <p>Eduba works at the orchestration layer above the model. For work that sits below that layer, Eduba partners with NLP Logix, which has been in machine learning since 2011 and runs over 150 data scientists.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-wrap">
+          <div>
+            <p class="eyebrow">Next step</p>
+            <h2 id="cta-title">Thirty minutes. One Eliza use case that is heading toward autonomous action.</h2>
+            <p class="lede">Bring the use case. We will do a live read on which parts of the context belong in structured data, which in rule sets, and which genuinely need the model. If the read is useful, we scope the next step from there. If not, you have a clearer picture of the layer.</p>
+          </div>
+
+          <aside class="cta-card" aria-label="Book the call">
+            <p class="cta-card__label">Book the call</p>
+            <p class="cta-card__name">Matt Creamer</p>
+            <p class="cta-card__role">Chief Revenue Officer, Eduba</p>
+            <a class="cta-btn" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">
+              Reserve thirty minutes
+              <span class="cta-btn__arrow" aria-hidden="true"></span>
+            </a>
+            <p class="cta-note">Led by Matt Creamer and Jake Van Clief, founder, Marine Corps veteran, MSc Future Governance from the University of Edinburgh, published in ACM TiiS and on arXiv.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>Prepared by Eduba, <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a> &middot; <a href="https://eduba.io/works" target="_blank" rel="noopener">More case studies</a>. Not affiliated with, endorsed by, or an official communication of BNY.</div>
+      <div>BNY is a registered trademark of The Bank of New York Mellon Corporation.</div>
+    </div>
+  </footer>
+
+<footer data-eduba="footer" style="background:#0a0a0a;color:#dcdcdc;padding:36px 20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;line-height:1.6;border-top:1px solid #1f1f1f;margin-top:48px;">
+  <div style="max-width:1040px;margin:0 auto;">
+    <div style="display:flex;flex-wrap:wrap;gap:28px;justify-content:space-between;align-items:flex-start;">
+      <div style="min-width:240px;flex:1;">
+        <div style="margin-bottom:6px;"><a href="https://eduba.io" target="_blank" rel="noopener" style="color:#ffffff;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-0.02em;">eduba</a></div>
+        <div style="opacity:0.85;margin-bottom:4px;">Van Clief Media LLC, dba Eduba</div>
+        <div style="opacity:0.7;">Veteran-owned AI consulting and training firm</div>
+      </div>
+      <div style="min-width:220px;flex:1;">
+        <div style="color:#ffffff;font-weight:600;margin-bottom:2px;">Matt Creamer, CRO</div>
+        <div style="margin-bottom:10px;"><a href="mailto:thecro@eduba.io" style="color:#dcdcdc;text-decoration:underline;">thecro@eduba.io</a></div>
+        <div style="opacity:0.85;">Founder: Jake Van Clief</div>
+      </div>
+      <div style="min-width:180px;flex:1;">
+        <div style="margin-bottom:4px;"><a href="https://eduba.io" target="_blank" rel="noopener" style="color:#dcdcdc;text-decoration:underline;">eduba.io</a></div>
+        <div style="opacity:0.85;">Palm Coast, FL</div>
+      </div>
+    </div>
+    <div style="margin-top:24px;padding-top:16px;border-top:1px solid #1f1f1f;opacity:0.62;font-size:12px;line-height:1.55;">
+      This site was custom-built by Eduba as a conference pitch. It is not affiliated with or operated by BNY.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
